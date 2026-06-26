@@ -8,7 +8,7 @@ class HydJobs(models.Model):
     eligibility = models.CharField(max_length=64)
     address = models.CharField(max_length=64)
     email = models.EmailField()
-    phonenumber = models.BigIntegerField()
+    phone_number = models.BigIntegerField()
 class BlrJobs(models.Model):
     date = models.DateField()
     company = models.CharField(max_length=64)
@@ -16,7 +16,7 @@ class BlrJobs(models.Model):
     eligibility = models.CharField(max_length=64)
     address = models.CharField(max_length=64)
     email = models.EmailField()
-    phonenumber = models.BigIntegerField()
+    phone_number = models.BigIntegerField()
 class PuneJobs(models.Model):
     date = models.DateField()
     company = models.CharField(max_length=64)
@@ -24,4 +24,4 @@ class PuneJobs(models.Model):
     eligibility = models.CharField(max_length=64)
     address = models.CharField(max_length=64)
     email = models.EmailField()
-    phonenumber = models.BigIntegerField()
+    phone_number = models.BigIntegerField()
